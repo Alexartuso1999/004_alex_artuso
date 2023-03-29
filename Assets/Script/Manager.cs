@@ -5,10 +5,11 @@ using UnityEngine;
 public class Manager : MonoBehaviour
 {
     public GameObject activeGameObject;
+    public GameObject disactiveGameObject;
 
     public void ActivateObject()
     {
-        if(activeGameObject.activeSelf != true)
+        if (activeGameObject.activeSelf != true)
         {
             activeGameObject.SetActive(true);
         }
@@ -17,4 +18,17 @@ public class Manager : MonoBehaviour
             activeGameObject.SetActive(false);
         }
     }
+
+    public void DisactiveObject()
+    {
+        if (disactiveGameObject.activeSelf == true)
+        {
+            disactiveGameObject.SetActive(false);
+        }
+    }
+
+    //public void DestroyObject()
+    //{
+    //    Destroy(activeGameObject);
+    //}
 }

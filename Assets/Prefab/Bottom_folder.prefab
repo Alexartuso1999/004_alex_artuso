@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7761643386799715736}
   - component: {fileID: 7761643386799715735}
   - component: {fileID: 7761643386799715734}
-  m_Layer: 5
-  m_Name: Button
+  m_Layer: 6
+  m_Name: Bottom_folder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 7761643386949831140}
   - component: {fileID: 7761643386949831142}
   - component: {fileID: 7761643386949831141}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
