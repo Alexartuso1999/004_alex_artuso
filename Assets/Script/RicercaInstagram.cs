@@ -10,6 +10,7 @@ public class RicercaInstagram : MonoBehaviour
     public GameObject revGreen;
     public GameObject plum;
     public GameObject disactive;
+    public GameObject error;
 
     public void ControllaTest()
     {
@@ -29,6 +30,10 @@ public class RicercaInstagram : MonoBehaviour
         {
             disactive.SetActive(false);
             plum.SetActive(true);
+        }
+        else
+        {
+            error.SetActive(true);
         }
     }
 }

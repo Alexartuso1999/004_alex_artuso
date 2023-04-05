@@ -7,6 +7,7 @@ public class Password : MonoBehaviour
 {
     public TMP_InputField inputUser;
     public GameObject disactive;
+    public GameObject error;
 
     public void ControllaTest()
     {
@@ -15,6 +16,10 @@ public class Password : MonoBehaviour
         if (text == "Lithe123.,")
         {
             disactive.SetActive(false);
+        }
+        else
+        {
+            error.SetActive(true);
         }
     }
 }

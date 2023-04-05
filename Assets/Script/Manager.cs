@@ -26,9 +26,4 @@ public class Manager : MonoBehaviour
             disactiveGameObject.SetActive(false);
         }
     }
-
-    //public void DestroyObject()
-    //{
-    //    Destroy(activeGameObject);
-    //}
 }

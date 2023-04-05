@@ -9,6 +9,7 @@ public class RicercaMaps : MonoBehaviour
     public TMP_InputField inputUser;
     public GameObject map;
     public GameObject disactive;
+    public GameObject error;
     
     public void ControllaTest()
     {
@@ -18,6 +19,10 @@ public class RicercaMaps : MonoBehaviour
         {
             disactive.SetActive(false);
             map.SetActive(true);
+        }
+        else
+        {
+            error.SetActive(true);
         }
     }
 }
