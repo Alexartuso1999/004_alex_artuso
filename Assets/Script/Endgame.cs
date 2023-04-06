@@ -13,7 +13,7 @@ public class Endgame : MonoBehaviour
     {
         inputUser.Select();
         string text = inputUser.text;
-        if (text == "Z-99, Z-99, Z-99")
+        if (text == "C-5, K-73, S-23")
         {
             endgame.SetActive(true);
         }
