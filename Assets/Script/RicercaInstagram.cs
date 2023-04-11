@@ -21,7 +21,7 @@ public class RicercaInstagram : MonoBehaviour
             disactive.SetActive(false);
             msScarlett.SetActive(true);
         }
-        else if (text == "Rev Green")
+        else if (text == "Green")
         {
             disactive.SetActive(false);
             revGreen.SetActive(true);
